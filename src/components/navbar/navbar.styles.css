@@ -1,0 +1,26 @@
+#logo {
+    width: 11rem;
+    /* height: 1%; */
+}
+
+.navbar {
+    background-color: #adfe31;
+}
+
+a {
+    outline: none;
+}
+
+
+@media screen and (min-width: 768px){
+    .nav-link:hover {
+        color: rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .active {
+        color: #000;
+        border-radius: 20px;
+        background: #fff;
+    }
+}

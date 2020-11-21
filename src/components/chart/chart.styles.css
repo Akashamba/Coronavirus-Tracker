@@ -1,0 +1,19 @@
+.canvas-container {
+    height: 60vh;
+  }
+
+@media(min-width: 768px) {
+    .canvas-container {
+        height: 70vh;
+    }
+}
+
+.chart-button-row {
+    justify-self: center;
+    justify-content: space-evenly;
+}
+
+.chart-button-col {
+    display: flex;
+    justify-content: center;
+}

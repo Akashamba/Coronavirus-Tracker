@@ -1,0 +1,43 @@
+.column .col-6 {
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 992px){
+    .col-6 {
+        padding: 0 15px;
+    }
+}
+
+.card {
+    border: 0px!important;
+    padding: 15px 0;
+}
+
+.card-body {
+    background-color: rgba(239,239,239, 1);
+    text-align: center;
+    padding: 0.5rem 1rem!important;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-size: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 992px){
+    .card-body {
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    }
+}
+
+.changes {
+    font-size: 13px!important;
+    margin-top : 5px;
+    display: block;
+    color: #FF0000;
+    white-space: nowrap;
+}

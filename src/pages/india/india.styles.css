@@ -1,0 +1,12 @@
+.image {
+    width: 80%;
+    margin: 0 auto;
+    /* margin-bottom: 60px; */
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    .image {
+        width: 29vw;
+    }
+}

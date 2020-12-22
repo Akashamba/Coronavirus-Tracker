@@ -18,9 +18,9 @@ import './App.css';
 //     charts and graphs ///// buttons for charts
 //     reduce cell size
 
-const App = () => (
-
-    <div className='App'>
+export default function App () {
+    return(
+        <div className='App'>
         <Navbar />
         <br /> 
         <div className='container'>
@@ -36,8 +36,5 @@ const App = () => (
         </div>
         <Footer />
     </div>
-)
-
-
-
-export default App;
+    )
+}

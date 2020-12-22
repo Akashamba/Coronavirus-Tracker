@@ -9,7 +9,7 @@ import Footer from './components/footer/footer.component.jsx';
 import { Switch, Route } from 'react-router-dom';
 import './App.css';
 
-// todo
+// TODO
 //     instructions
 //     search bar
 //     Dark Mode!!!! Later

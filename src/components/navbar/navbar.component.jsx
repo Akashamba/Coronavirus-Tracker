@@ -37,7 +37,7 @@ const NavBar = (props) => {
               <NavLink tag={Link} activeClassName='active' to='/global'>Global Stats</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink disabled>Dark Mode</NavLink>
+              {/*<NavLink disabled>Dark Mode</NavLink>*/}
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>

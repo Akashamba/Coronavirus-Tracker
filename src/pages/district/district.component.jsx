@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Table from '../../components/table/table.component.jsx';
 import image from '../../assets/home2.jpg';
 import Chart from '../../components/chart/chart.component';
+import {Button, Row, Col} from 'reactstrap';
+import './district.styles.css';
 
 class District extends Component {
 
@@ -72,7 +74,18 @@ class District extends Component {
 
         return (
             <div className={`district ${stateName}`}>
-                <h1>{stateName} Statistics</h1>
+                <br/>
+                
+                <Row>
+                    <Col xs="8" md="6">
+                        <h1 id="state-header" >{stateName} Statistics</h1>
+                    </Col>
+
+                    <Col xs="4" md="6">
+                        <Button id="state-search" onClick={() => history.push('/search-state')} ><i class="fas fa-search"></i> Search</Button>
+                    </Col>
+                </Row>
+        
                 <br/>
                 <img src={image} alt="coronavirus" className="image" />
                 <br/><br/><br/>

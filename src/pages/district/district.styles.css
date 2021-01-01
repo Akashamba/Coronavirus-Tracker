@@ -1,0 +1,17 @@
+.fa-search {
+    /* margin-left: 20px; */
+    font-size: 1rem; 
+}
+
+#state-search {
+    margin: 5px;
+    border-radius: 15px;
+}
+
+#state-search:hover .fa-search, #state-search:active .fa-search {
+    color: #adfe31;
+}
+
+#state-header {
+    display: inline-block;
+}

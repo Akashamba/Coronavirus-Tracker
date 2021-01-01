@@ -1,0 +1,13 @@
+.search-results-container {
+    min-height: 50vh;
+}
+
+.search-results {
+    list-style-type: none;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+.result {
+    padding: 10px;
+}

@@ -3,6 +3,7 @@ import Navbar from './components/navbar/navbar.component.jsx';
 import World from './pages/world/world.component.jsx';
 import India from './pages/india/india.component.jsx';
 import District from './pages/district/district.component.jsx';
+import SearchState from './pages/search-state/search-state.component.jsx';
 import Credits from './pages/credits/credits.component.jsx';
 import Donate from './pages/donate/donate.component.jsx';
 import Footer from './components/footer/footer.component.jsx';
@@ -27,7 +28,8 @@ export default function App () {
             <Switch> {/* as soon as one componenet renders, no others are rendered*/}
                 <Route exact path='/' component={India} />
                 <Route exact path='/global' component={World} />
-                <Route exact path='/state/:state' component={District} />                
+                <Route exact path='/state/:state' component={District} /> 
+                <Route exact path='/search-state' component={SearchState} />               
                 <Route exact path='/credits' component={Credits} />
                 <Route exact path='/donate' component={Donate} />
                 <Route component={India} />

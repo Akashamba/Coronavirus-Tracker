@@ -21,7 +21,7 @@ class District extends Component {
     }
 
     getDistrictData = () => {
-        fetch('https://api.covid19india.org/state_district_wise.json')
+        fetch('https://data.covid19india.org/state_district_wise.json')
             .then((response) => response.json())
             .then(states => {
                 const {state} = this.props.match.params;

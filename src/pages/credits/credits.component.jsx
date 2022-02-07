@@ -9,7 +9,7 @@ const Credits = () => (
 			
 			<li>Live Data:
 				<ul>
-					<li>Indian Data sourced from <a rel='noreferrer' target="_blank" href="https://api.covid19india.org/">api.covid19india.org</a></li>
+					<li>Indian Data sourced from <a rel='noreferrer' target="_blank" href="https://data.covid19india.org/">data.covid19india.org</a></li>
 					<li>Global Data sourced from <a rel='noreferrer' target="_blank" href="https://api.covid19api.com/">api.covid19api.com</a></li>
 				</ul>
 			</li>

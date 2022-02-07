@@ -85,6 +85,7 @@ class District extends Component {
                         <Button id="state-search" onClick={() => history.push('/search-state')} ><i class="fas fa-search"></i> Search</Button>
                     </Col>
                 </Row>
+                Data as on October 31 (<a target="__blank" href="https://blog.covid19india.org/2021/08/07/end/">More Info</a>)
         
                 <br/>
                 <img src={image} alt="coronavirus" className="image" />

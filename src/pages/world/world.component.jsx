@@ -75,7 +75,7 @@ class World extends Component {
     render() {
         return (
             <div className='world'>
-                <h1>Global Statistics</h1>
+                <h1>Global Statistics</h1> Data sourced from <a rel='noreferrer' target="_blank" href="https://api.covid19api.com/">api.covid19api.com</a>
                 <br/>
                 <img className='image' src={image} alt="Let's Stop This Pandemic Together"/>
                 <br /><br /><br />
